@@ -39,4 +39,3 @@ test('9_Validate name contains only "-"', () => {
 test('10_Validate name contains only 3number', () => {
   expect(Validator.validateUserName('Natasha-3327s')).toBeFalsy();
 });
-
